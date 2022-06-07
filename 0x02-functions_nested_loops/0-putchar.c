@@ -5,14 +5,15 @@
  */
 int main (void){
 
-        char ch[10] = "_putchar ";
+        char ch[10] = "_putchar";
 
 	int i=0;
 
-        for(i=0 ; i<10 ; i++)
+        for(i=0; i<9; i++)
         {
           _putchar (ch[i]);
         }
         _putchar ('\n');
+
         return (0);
         }
